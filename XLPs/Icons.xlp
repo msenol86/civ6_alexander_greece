@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>315</build>
+		<revision>805</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UI/Icons"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="Frederick256"/>
+			<m_ObjectName text="Frederick256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Frederick32"/>
+			<m_ObjectName text="Frederick32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Frederick45"/>
+			<m_ObjectName text="Frederick45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Frederick48"/>
+			<m_ObjectName text="Frederick48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Frederick50"/>
+			<m_ObjectName text="Frederick50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Frederick55"/>
+			<m_ObjectName text="Frederick55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Frederick64"/>
+			<m_ObjectName text="Frederick64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Frederick80"/>
+			<m_ObjectName text="Frederick80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="JFD_FREDERICK_1"/>
+			<m_ObjectName text="JFD_FREDERICK_1"/>
+		</Element>
+		<Element>
+			<m_EntryID text="JFD_FREDERICK_2"/>
+			<m_ObjectName text="JFD_FREDERICK_2"/>
+		</Element>
+		<Element>
+			<m_EntryID text="JFD_FREDERICK_4"/>
+			<m_ObjectName text="JFD_FREDERICK_4"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LandwehrUnitFlags22"/>
+			<m_ObjectName text="LandwehrUnitFlags22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LandwehrUnitFlags256"/>
+			<m_ObjectName text="LandwehrUnitFlags256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LandwehrUnitFlags32"/>
+			<m_ObjectName text="LandwehrUnitFlags32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LandwehrUnitFlags38"/>
+			<m_ObjectName text="LandwehrUnitFlags38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LandwehrUnitFlags50"/>
+			<m_ObjectName text="LandwehrUnitFlags50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LandwehrUnitFlags80"/>
+			<m_ObjectName text="LandwehrUnitFlags80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_JFD_FREDERICK_NEUTRAL"/>
+			<m_ObjectName text="LEADER_JFD_FREDERICK_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LandwehrUnitPortraits200"/>
+			<m_ObjectName text="LandwehrUnitPortraits200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LandwehrUnitPortraits256"/>
+			<m_ObjectName text="LandwehrUnitPortraits256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LandwehrUnitPortraits38"/>
+			<m_ObjectName text="LandwehrUnitPortraits38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LandwehrUnitPortraits50"/>
+			<m_ObjectName text="LandwehrUnitPortraits50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LandwehrUnitPortraits70"/>
+			<m_ObjectName text="LandwehrUnitPortraits70"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LandwehrUnitPortraits95"/>
+			<m_ObjectName text="LandwehrUnitPortraits95"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Moment_UniqueUnit_JFD_GermanyFrederick"/>
+			<m_ObjectName text="Moment_UniqueUnit_JFD_GermanyFrederick"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+
