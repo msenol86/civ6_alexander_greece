@@ -1,0 +1,35 @@
+--==========================================================================================================================
+-- ICONS
+--==========================================================================================================================
+-- IconTextureAtlases
+--------------------------------------------------------------------------------------------------------------------------	
+-- INSERT INTO IconTextureAtlases	
+		-- (Name,										IconSize,	IconsPerRow,	IconsPerColumn,		Filename)
+-- VALUES  ('ICON_ATLAS_JFD_FREDERICK',				256,	 	1,				1,					'Frederick256.dds'),
+		-- ('ICON_ATLAS_JFD_FREDERICK',				80,	 		1,				1,					'Frederick80.dds'),
+		-- ('ICON_ATLAS_JFD_FREDERICK',				64,	 		1,				1,					'Frederick64.dds'),
+		-- ('ICON_ATLAS_JFD_FREDERICK',				55,	 		1,				1,					'Frederick55.dds'),
+		-- ('ICON_ATLAS_JFD_FREDERICK',				50,	 		1,				1,					'Frederick50.dds'),
+		-- ('ICON_ATLAS_JFD_FREDERICK',				48,	 		1,				1,					'Frederick48.dds'),
+		-- ('ICON_ATLAS_JFD_FREDERICK',				45,	 		1,				1,					'Frederick45.dds'),
+		-- ('ICON_ATLAS_JFD_FREDERICK',				32,	 		1,				1,					'Frederick32.dds'),
+		-- ('ICON_ATLAS_JFD_LANDWEHR',					256,	 	1,				1,					'LandwehrUnitFlags256.dds'),
+		-- ('ICON_ATLAS_JFD_LANDWEHR',					80,	 		1,				1,					'LandwehrUnitFlags80.dds'),
+		-- ('ICON_ATLAS_JFD_LANDWEHR',					50,	 		1,				1,					'LandwehrUnitFlags50.dds'),
+		-- ('ICON_ATLAS_JFD_LANDWEHR',					38,	 		1,				1,					'LandwehrUnitFlags38.dds'),
+		-- ('ICON_ATLAS_JFD_LANDWEHR',					32,	 		1,				1,					'LandwehrUnitFlags32.dds'),
+		-- ('ICON_ATLAS_JFD_LANDWEHR',					22,	 		1,				1,					'LandwehrUnitFlags22.dds'),
+		-- ('ICON_ATLAS_JFD_LANDWEHR_PORTRAIT',		256,	 	1,				1,					'LandwehrUnitPortraits256.dds'),
+		-- ('ICON_ATLAS_JFD_LANDWEHR_PORTRAIT',		200,	 	1,				1,					'LandwehrUnitPortraits200.dds'),
+		-- ('ICON_ATLAS_JFD_LANDWEHR_PORTRAIT',		95,	 		1,				1,					'LandwehrUnitPortraits95.dds'),
+		-- ('ICON_ATLAS_JFD_LANDWEHR_PORTRAIT',		70,	 		1,				1,					'LandwehrUnitPortraits70.dds'),
+		-- ('ICON_ATLAS_JFD_LANDWEHR_PORTRAIT',		50,	 		1,				1,					'LandwehrUnitPortraits50.dds'),
+		-- ('ICON_ATLAS_JFD_LANDWEHR_PORTRAIT',		38,	 		1,				1,					'LandwehrUnitPortraits38.dds');
+--------------------------------------------------------------------------------------------------------------------------	
+-- IconDefinitions
+--------------------------------------------------------------------------------------------------------------------------	
+INSERT INTO IconDefinitions	
+		(Name,													Atlas, 										'Index')
+VALUES  ('ICON_LEADER_ALEXANDER_GREECE',							'ICON_ATLAS_ALEXANDER',					0);
+--==========================================================================================================================
+--==========================================================================================================================

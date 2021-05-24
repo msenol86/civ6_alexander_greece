@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="65cab80b-255b-4a6e-a645-c3f5a438e913" version="1">
+  <Properties>
+    <Name>Bcursor's [COLOR_FLOAT_GOLD]Greece[ENDCOLOR]: Alexander</Name>
+    <Description>------------------------------------[NEWLINE]LEADER -- FREDERICK II[NEWLINE][NEWLINE]TRAIT - JUNKER ACADEMIES[NEWLINE]Encampment Buildings yield [ICON_GOLD] Gold and [ICON_SCIENCE] Science equal to their intrinsic [ICON_PRODUCTION] Production output. Gain the Landwehr unique unit when they research the Rifling technology.[NEWLINE][NEWLINE]UNIT - LANDWEHR[NEWLINE]German unique Industrial era unit when Frederick is their leader. Is unaffected by ZOC. Has +5 [ICON_STRENGTH] Combat Strength when adjacent to another Landwehr unit.[NEWLINE][NEWLINE]AGENDA - KRIEGSKUNST[NEWLINE]Always tries to keep a large standing army whilst maintaining his [ICON_SCIENCE] Science, and respects civilizations that do the same. Dislikes civilizations that are behind in [ICON_SCIENCE] Science.</Description>
+    <Created>1595865272</Created>
+    <Teaser>Adds Alexandar to Greece. Click for details.</Teaser>
+    <Authors>Bcursor</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="LOC_EXPANSION1_MOD_TITLE" />
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="LOC_EXPANSION2_MOD_TITLE" />
+  </Dependencies>
+  <References>
+    <!-- <Mod id="8342b98d-80c7-4002-87bb-419646bd9b54" title="DELIVERATOR STEEL AND THUNDER" /> -->
+    <!-- <Mod id="8342b98d-80c7-4002-87bb-419646bd9b54" title="DELIVERATOR MOAR UNITS" /> -->
+    <!-- <Mod id="514aaa88-ffd2-475f-ace6-ea49b34a100a" title="GEDEMON CORDIFORM EARTH FOR YNAEMP" /> -->
+    <!-- <Mod id="36e88483-48fe-4545-b85f-bafc50dde315" title="GEDEMON YNAEMP" /> -->
+    <!-- <Mod id="650ff782-47b4-4b46-93fb-00bef8da8b8e" title="JFD RULE WITH FAITH" /> -->
+  </References>
+  <ActionCriteria>
+    <Criteria id="Expansion1">
+      <GameCoreInUse>Expansion1</GameCoreInUse>
+    </Criteria>
+  </ActionCriteria>
+  <FrontEndActions>
+    <UpdateDatabase id="UpdateDatabase">
+      <Properties>
+        <LoadOrder>10</LoadOrder>
+      </Properties>
+      <File>Core/GreeceAlexander_Frontend_Config.sql</File>
+    </UpdateDatabase>
+    <UpdateIcons id="UpdateIcons">
+      <File>Core/GreeceAlexander_IconDefinitions.sql</File>
+    </UpdateIcons>
+    <UpdateText id="UpdateText">
+      <File>Core/GreeceAlexander_GameText.xml</File>
+    </UpdateText>
+    <!-- <UpdateArt id="UpdateArt"> -->
+      <!-- <File>JFD's Germany - Frederick II.dep</File> -->
+    <!-- </UpdateArt> -->
+    <UpdateColors id="UpdateColors">
+      <File>Core/GreeceAlexander_Colors.sql</File>
+    </UpdateColors>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="UpdateDatabase">
+      <Properties>
+        <LoadOrder>10</LoadOrder>
+      </Properties>
+      <File>Core/GreeceAlexander_InGame_GameDefines.sql</File>
+      <!-- <File>Core/GermanyFrederick_ModSupport.sql</File> -->
+    </UpdateDatabase>
+    <UpdateIcons id="UpdateIcons">
+      <File>Core/GreeceAlexander_IconDefinitions.sql</File>
+    </UpdateIcons>
+    <UpdateText id="UpdateText">
+      <File>Core/GreeceAlexander_GameText.xml</File>
+    </UpdateText>
+    <!-- <UpdateArt id="UpdateArt"> -->
+      <!-- <File>JFD's Germany - Frederick II.dep</File> -->
+    <!-- </UpdateArt> -->
+    <UpdateColors id="UpdateColors">
+      <File>Core/GreeceAlexander_Colors.sql</File>
+    </UpdateColors>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Leaders.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>ArtDefs/UserInterface.artdef</File>
+    <File>Core/GreeceAlexander_Frontend_Config.sql</File>
+    <File>Core/GreeceAlexander_Colors.sql</File>
+    <File>Core/GreeceAlexander_InGame_GameDefines.sql</File>
+	<File>Core/GreeceAlexander_IconDefinitions.sql</File>
+    <File>Core/GreeceAlexander_GameText.xml</File>
+    <File>Credits.txt</File>
+    <File>Bcursor's Greece - Alexander.dep</File>
+  </Files>
+</Mod>
+

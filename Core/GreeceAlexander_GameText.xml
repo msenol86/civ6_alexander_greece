@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ALEXANDER_GREECE_QUOTE" Language="en_US">
+			<Text>It has been said by a certain general, that the first object in the establishment of an army ought to be making provision for the belly, that being the basis and foundation of all operations.</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_ALEXANDER_GREECE_NAME" Language="en_US">
+			<Text>Alexander (Greece)</Text>
+		</Row>
+	</LocalizedText>
+</GameData>
